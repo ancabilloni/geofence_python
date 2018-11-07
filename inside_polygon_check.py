@@ -38,8 +38,8 @@ def isInside(polygon, point_p):
 	return count_inter&1
 
 if __name__ == '__main__':
-	polygon = [[1,2], [2,4], [4,6], [8,5], [6,4], [4,3], [3,2]]
-	point_p = [0,2]
+	polygon = [[1,2], [2,4], [4,6], [8,5], [6,4], [4,3], [3,2]] # Test case, replace your own test case as needed
+	point_p = [0,2] # Test point, replace your own test point as need
 	inGeofence = None
 	if isInside(polygon, point_p):
 		inGeofence = "Yes"
